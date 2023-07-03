@@ -19,7 +19,7 @@ interface Props {
     person: Person;
 }
 
-export const TextField: React.FC<Props> = () => {
+export const TextField: React.FC<Props> = ({person, text}) => {
     return (
         <div>
             <input />
